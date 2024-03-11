@@ -163,7 +163,7 @@ ssl:
           name: neo4j-tls
           items:
           - key: tls.crt
-            path: public.crt
+            path: tls.crt
   cluster:
     privateKey:
       secretName: neo4j-tls
@@ -177,7 +177,7 @@ ssl:
           name: neo4j-tls
           items:
           - key: tls.crt
-            path: public.crt
+            path: tls.crt
     revokedCerts:
       sources: [ ]
 ----
