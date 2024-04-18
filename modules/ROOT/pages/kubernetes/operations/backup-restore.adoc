@@ -80,11 +80,11 @@ kubectl create secret generic awscreds --from-file=credentials=/path/to/your/cre
 AZURE_STORAGE_ACCOUNT_NAME=<your-azure-storage-account-name>
 AZURE_STORAGE_ACCOUNT_KEY=<your-azure-storage-account-key>
 ----
-. Create the secret named `azurecred` via the credentials file:
+. Create the secret named `azurecreds` via the credentials file:
 +
 [source, shell, role='noheader']
 ----
-kubectl create secret generic azurecred --from-file=credentials=/path/to/your/credentials
+kubectl create secret generic azurecreds --from-file=credentials=/path/to/your/credentials
 ----
 ======
 =====
